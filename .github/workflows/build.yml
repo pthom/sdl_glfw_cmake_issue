@@ -21,6 +21,8 @@ jobs:
       with:
         submodules: true
 
+    - name: install xorg-dev on ubuntu
+      run: ./install_xorg_dev.sh
 
     - name: Build and install
       run: |
